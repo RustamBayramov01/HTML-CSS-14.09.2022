@@ -1,0 +1,286 @@
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+
+header {
+    height: 138px;
+    background: linear-gradient(#d5d5d5, #fff, #fff, #fff);
+    padding: 36px 15px 25px 15px;
+}
+
+#menu {
+    float: right;
+    padding: 23px 0 0 0;
+}
+
+#menu li{
+    display: inline-block;
+    font-size: 0.7em Tahoma;
+    color: #b7b7b7;
+    padding: 0 10px 6px 10px;
+    border-left: 1px dotted #d6d6d6;
+}
+
+#menu li a{
+    display: block;
+    font: bold 0.9rem Georgia;
+    color: #666;
+    text-transform: uppercase;
+}
+
+main {
+    height: 1380px;
+    background: #fff url('../images/mainbg.jpg') repeat-x;
+    padding: 22px 0;
+}
+
+#slider {
+    height: 340px;
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+    background: url('../images/slider.jpg') center;
+    box-shadow: 0 1px 10px #333;
+}
+
+h1 {
+    color: #000000;
+    font: bold 1.5em Georgia;
+    text-align: center;
+    margin: 22px 0;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+h2 {
+    font-size: 1.3em Georgia;
+    color: #11719e;
+    letter-spacing: 1px;
+}
+
+h6 {
+    font-size: 0.7em Helvetica;
+    color: #8c8c8c;
+}
+
+article p {
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: black;
+    font-family: "Helvetica";
+    text-align: justify;
+}
+
+article img{
+    padding: 7px;
+    background: #f3f3f3;
+    border:  1px solid #e1e1e1;
+    border-radius: 4px;
+    margin: 18px 0;
+}
+
+.col{
+    float: left;
+    width: 33.33%;
+    padding:  35px 10px;
+}
+
+
+.row::after {
+    content: none;
+    display: table;
+    clear: both;
+}
+
+.Social-Connection-Color{
+    color: #686868;
+    font-size: 18em;
+    font: bold 1.0em Georgia;
+}
+
+.Social-Connection-Color-horizontal{
+    color: #44444444;
+}
+
+.Social-Connection-break{
+    margin-top: -10px;
+    margin-bottom: 40px;
+    border: 1px  white;
+    background: white;
+}
+
+.Social-Connection-Icons{
+    border: 1px  white;
+    background: white;
+    margin-left: -13px;
+    margin-top: -3px;
+}
+
+
+.Newsletter{
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.Shape3-Background{
+    margin-left: -10px;
+    background: white;
+    border: 1px white;
+}
+
+
+.Shape3-Background-text{
+    margin-top: -54px;
+    font-size: 0.7em;
+    margin-left: 10px;
+    color: #44444444;
+}
+
+.Subscribe{
+    margin-top: -53px;
+    font-size: 0.7em Helvetica;
+    margin-left: 10px;
+    color: white;
+}
+
+.Copy{
+    margin-top: -20px;
+    margin-left: 120px;
+    background: #2f6091;
+    border: 1px #2f6091;
+}
+
+
+.Contact{
+    margin-top: 55px;
+    color: #686868;
+    font-size: 18em;
+    font: bold 1.0em Georgia;
+}
+
+
+.Shape33-Background{
+    margin-left: -5px;
+    margin-top: 7px;
+    background: white;
+    border: 1px white;
+}
+
+.Shape33-Background-text{
+    margin-top: -54px;
+    font-size: 0.7em;
+    margin-left: 14px;
+    color: #44444444;
+}
+
+.Shape333-Background{
+    margin-left: -5px;
+    margin-top: 15px;
+    background: white;
+    border: 1px white;
+}
+
+
+.Shape-message-Background{
+    margin-left: -5px;
+    margin-top: 30px;
+    background: white;
+    border: 1px white;
+}
+
+.Shape-message-textt{
+    margin-top: -155px;
+    font-size: 0.7em;
+    margin-left: 15px;
+    color: #44444444;
+}
+
+.Contact-Shape{
+    background: white;
+    border: 1px white;
+    margin-top: 120px;
+    margin-left: -4px;
+}
+
+
+.Sent-it{
+    margin-top: -53px;
+    font-size: 0.7em Helvetica;
+    margin-left: 15px;
+    color: white;
+}
+
+
+.Contact-Shape-2{
+    background: white;
+    border: 1px white;
+    margin-top: -5px;
+    margin-left: -6px;
+}
+
+
+
+.footer-text{
+    margin-top: -16px;
+    color: #636363;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-text-2{
+    margin-top: 6px;
+    color: #636363;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-text-3{
+    margin-top: 8px;
+    color: #636363;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-text-4{
+    margin-top: -60px;
+    margin-left: 670px;
+    color: #636363;
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.round-first{
+    margin-top: 305px;
+    margin-left: 20px;
+}
+
+
+.round{
+    margin-top: 305px;
+    margin-left: 5px;
+}
+
+.round-white{
+    margin-bottom: 4px;
+    margin-left: -17px;
+}
+
+.Socials{
+
+    margin-top: 1px;
+
+    }
+    .Social-Image{
+        float:left;
+        margin: 5px 7px 0px 0px;
+    }
+
+
+
